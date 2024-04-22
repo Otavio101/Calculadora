@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(214, 214, 214);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadradao{
+    height: 500px;
+    width: 380px;
+    background-color: white;
+    border-radius: 10px;
+    border: 10px white solid;
+    justify-content: center;
+    text-align: center;
+}
+
+.quadradao h1{
+    font-size: 30px;
+}
+
+.quadradao h2{
+    margin-left: -150px;
+}
+
+.numero{
+    height: 32px;
+    width: 324px;
+}
+
+.numero2{
+    height: 32px;
+    width: 324px;
+}
+
+button{
+    background-color: gray;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.result{
+    margin-top: 50px;
+}
+
+select{
+    height: 40px;
+    width: 332px;
+    font-size: 16px;
+}

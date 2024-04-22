@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+        <div class="quadradao">
+
+            <h1>Calculadora</h1>
+
+            <select name="operacao" id="operacao">
+
+                <option disabled selected>selecione uma operação</option>
+                <option >+</option>
+                <option >-</option>
+                <option >x</option>
+                <option >/</option>
+
+        </select>
+
+        <h2>Primeiro Número</h2>
+        <input class="numero" type="number" id="numeroInput">
+
+        <h2>Segundo Número</h2>
+        <input class="numero2" type="number" id="numero2Input">
+
+        <button onclick="Calcular()">Calcular</button>
+        <h2 class="result">O resultado é: <span id="resultado"></span></h2>
+
+        </div>
+</body>
+</html>
